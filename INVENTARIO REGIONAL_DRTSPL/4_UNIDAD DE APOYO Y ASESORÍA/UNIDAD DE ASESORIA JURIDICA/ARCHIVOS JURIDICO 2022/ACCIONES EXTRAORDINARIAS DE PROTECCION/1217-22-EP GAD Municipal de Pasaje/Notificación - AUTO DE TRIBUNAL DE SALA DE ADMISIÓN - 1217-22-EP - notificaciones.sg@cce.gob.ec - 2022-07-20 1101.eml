@@ -1,0 +1,151 @@
+X-Account-Key: account1
+X-UIDL: 29774.v,gWxuQ1in3IxcMU4hP6PmhQnhGC8Januo+G9OnJHMw=
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: notificaciones.sg@cce.gob.ec
+Received: from webmail.mrl.gob.ec (LHLO webmail.trabajo.gob.ec)
+ (192.168.1.127) by mailbox1.mrl.int with LMTP; Wed, 20 Jul 2022 11:02:23
+ -0500 (ECT)
+Received: from localhost (localhost [127.0.0.1])
+	by webmail.trabajo.gob.ec (Postfix) with ESMTP id 6BBC0E061E
+	for <robert_blacio@trabajo.gob.ec>; Wed, 20 Jul 2022 11:02:23 -0500 (ECT)
+Received: from webmail.trabajo.gob.ec ([127.0.0.1])
+	by localhost (webmail.trabajo.gob.ec [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id zkSCnOUypkwU for <robert_blacio@trabajo.gob.ec>;
+	Wed, 20 Jul 2022 11:02:23 -0500 (ECT)
+Received: from webmail.trabajo.gob.ec (localhost [127.0.0.1])
+	by webmail.trabajo.gob.ec (Postfix) with ESMTP id 47500E0628
+	for <robert_blacio@trabajo.gob.ec>; Wed, 20 Jul 2022 11:02:23 -0500 (ECT)
+Received: from avas.trabajo.gob.ec (unknown [192.168.1.183])
+	by webmail.trabajo.gob.ec (Postfix) with ESMTPS id 3C052E05CB
+	for <robert_blacio@trabajo.gob.ec>; Wed, 20 Jul 2022 11:02:23 -0500 (ECT)
+Received: from NAM04-DM6-obe.outbound.protection.outlook.com (mail-dm6nam04on2124.outbound.protection.outlook.com [40.107.102.124])
+	by avas.trabajo.gob.ec (Postfix) with ESMTPS id 15FD12C0D4B
+	for <robert_blacio@trabajo.gob.ec>; Wed, 20 Jul 2022 11:02:01 -0500 (-05)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=VYPov2SB6xg7bACMeMKoQBeAhn0HE5TocpgFdosUZHuMQ0JQMSefNPyefEBwauXTn/CDsyZPVO490+KzXwqrMzDqrQu2cEu0uM4ulYcEPOEHw+HtskM8zaH8W1kvq2g7P8G3VgZ47TwoKJ2fxMv/239j/H9lZxU2+VA7vIWn+h+2zxa1ZIN/3WaL3QuN3p9PcL6qNViN/S1RmMCe0LyvWfE+OGWlSRehNrZlcuGHtQ3VenlOgnJnehEiH3Gz0bLkOPsaxfVXXjeqwgthY+iJnSDcrTFEm0KekMP+7dynU14UADySGQaefUz6ZlzZgpIudXFNuLFKhv8+iE172R5NOw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=mhUSCS4iggwjAbK9HJUpW6ZQEjLwD/IgYEv8zcb4WDw=;
+ b=J1anMfJV2fhZHmt5eHRIoOe6bakrIeH+nSRxONnM6/1hjBj9Ntfk7ry0TCdvH/JycMLqUbPpxDPsrrYVQ4ikI0HV9piM8RL5oTseKWlHThqyI86inBxn/lpZpGUqvV41gwJMJTzXedhHMGr9RBhnkSGVYZRbtAjBY5yszMjf27G8fY2hZpR54HRCNtZB3hk+0wGZFMV2IbYjZlNmF0HFfOSQWLZtuzKKawhBb/AyxrZeVf2JDUul1+6Kl5vB6gZNzmEpcl5v1dR5PG314rl6CwCieI/+jxwV9MZ7BMQ3qgD/QqYiy8cD+b8HwpWq4tAr7/mRG++IklF/80B9uaVV9Q==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=cce.gob.ec; dmarc=pass action=none header.from=cce.gob.ec;
+ dkim=pass header.d=cce.gob.ec; arc=none
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=cce.gob.ec;
+Received: from SA1PR20MB4395.namprd20.prod.outlook.com (2603:10b6:806:238::11)
+ by CH0PR20MB4123.namprd20.prod.outlook.com (2603:10b6:610:d9::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5458.18; Wed, 20 Jul
+ 2022 16:01:57 +0000
+Received: from SA1PR20MB4395.namprd20.prod.outlook.com
+ ([fe80::866:8173:6252:6074]) by SA1PR20MB4395.namprd20.prod.outlook.com
+ ([fe80::866:8173:6252:6074%9]) with mapi id 15.20.5438.019; Wed, 20 Jul 2022
+ 16:01:57 +0000
+From: notificaciones.sg@cce.gob.ec
+To: robert_blacio@trabajo.gob.ec
+Message-ID: <1313738914.3121.1658332917689.JavaMail.root@vsrvwilfly2>
+Subject: =?utf-8?Q?Notificaci=C3=B3n_-_AUTO_DE_TRIBUNAL_?=
+ =?utf-8?Q?DE_SALA_DE_ADMISI=C3=93N_-_1217-22-EP?=
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_3120_789884422.1658332917220"
+Date: Wed, 20 Jul 2022 16:01:57 +0000
+X-ClientProxiedBy: BN6PR17CA0035.namprd17.prod.outlook.com
+ (2603:10b6:405:75::24) To SA1PR20MB4395.namprd20.prod.outlook.com
+ (2603:10b6:806:238::11)
+MIME-Version: 1.0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 8face4b7-b04f-47a4-2cdc-08da6a692c86
+X-MS-TrafficTypeDiagnostic: CH0PR20MB4123:EE_
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	hqJD320aaqra8BqK0sJcdQFwTi1bIZ+FFl4HmvlmpIrE0exFGMTOgjRq+34N0bvXAmdDBJSGXP27dHb+h5ME/b9Fbot7tEdeLIDxXK2O/ib6dRFtYH6h8lQg1gwW7FMC4kFFyyK6I4ANtzxUqzk2af61ZGIoWZwukSrBKnqBk8GH9uIOiaa9AnxU9wdWBwi5prtIwhrjxRtTyaDWpW43JJf5t31OJj/JDI5UhgbtGFqVdZzxTMRrK9zNdpnxF3uplLc6kYZtdSj7R72AN9ltdmlChKtEs5EVz2P2b3jwM3CbVliR1DT9DNcjq43O+Y6QvviXRM697W9ipFS9T0vpADORTPFUBMpnQwWLifFS2dtvsy3prXD/sLTaDqx7Dh4JP11SzFQyifOuFG2sJNFOalLy++Su94FNAS9pf/LLXRoCrcM+XG/M3yZQmLcjxyKhbZWCdf6inLhJOWQQq/EDrV3kfw6iI6ezEq2aKHNQQpETT918bhJsh+HPtVFnYvhaNjcRHImaqvzVkCqR7z1RPw5BthJ0WIagdrpQB/j6n9H/K1jkSm2IYgI9hzjC1CMAT2GPW236BeRODv7Own8mHGiCUl2JPpYRGcUe5pi+JNX/Ylbbd25PIntMwpbr+c/yYgY9VqAiDPywkeOOam4tnt8Jw5suLfkvj8kNc8nIkSpfrNvYGhpbMQEztZ8lnlqqNgGF6zciHQWbChDUSy7w9EFOKneKwaeAP39qk95x6FXGpUUwQoC4IAJXElkxwNUnwkdT9wgHE3/l9L+JWA5P6jOq6jP6TBgIaAxWuC2JJT9ph741L2tTMIzMjG97avxp
+X-Forefront-Antispam-Report:
+	CIP:255.255.255.255;CTRY:;LANG:es;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:SA1PR20MB4395.namprd20.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(7916004)(346002)(39850400004)(376002)(396003)(366004)(136003)(11986003)(6486002)(2906002)(38100700002)(33964004)(33716001)(7066003)(6506007)(66556008)(66476007)(66946007)(38350700002)(52116002)(86362001)(9686003)(6512007)(26005)(224303003)(5660300002)(8936002)(316002)(186003)(41300700001)(6916009)(478600001)(166002);DIR:OUT;SFP:1102;
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?utf-8?B?VjdveHVITjFuSDlodHhsSkxOZS9pWGhDZFdwN1o5YWkrTDNmRmtBZmpsMWFn?=
+ =?utf-8?B?RlVJSmx4alFNWXUvd3UwUXBWN0VwTWVYd0lPK0tPcjBya0hCWWJ2aFNobThZ?=
+ =?utf-8?B?dXhBZm8zZTFjaEI4OXRzZ1Bzd2l3ekk0d2xOd3FENUVQMkU5Nm5FYlZJRXY0?=
+ =?utf-8?B?bjBMVTBjSEhCRHd3UFB3WjdMR1Brc09JUk93V0Z6YXFhMWZNRlRqVnJkWGwy?=
+ =?utf-8?B?OHFRZ1J5R0RIYnFzZktmbHgwOW5KallMNjlaMGQ0ZENlMVczTHpFMWJkK0pu?=
+ =?utf-8?B?VWF1RExvVnBmTHFkak1PZTVZeUkxTnZVL3N1cjR3VmE4NnpwN3JKVHNVQW84?=
+ =?utf-8?B?djZZSU1NakZrU0tyRzB6WFNETkgxZ2NNWG1maUJTZGVIZThIVmkwTU81dWd2?=
+ =?utf-8?B?VHNYY2h1WHh4SURaNzd6S21TZktIYmpqNitpdVBDNldhS0xBZ0kxMFhIY1Fz?=
+ =?utf-8?B?OU1IVnRRdUxkWlNteEdQWWZNamk0MVZuOFhrb2lZWlhsSWg4T0NWeXZyTTRL?=
+ =?utf-8?B?NnB1MlVIMWczdXlUNVpEejRBSkFrMFNBblpOUm9qOW1DWUllUEZNbm1uNUVB?=
+ =?utf-8?B?RmNTUTJqMkxtZk1LWDBpbVZUMFJlamQvaU85RDl0NEFQQVlESThyVGU4bDk3?=
+ =?utf-8?B?V1dqR29BOVYzTG5ZSk9aLytJdmFqVVZxY3l1cGtReEZoRXVrcTBESkFwWXFH?=
+ =?utf-8?B?REdla1VaeXhhT3hSSjM5cEJnZWFrWUZoRXpFMVhCcEtZRjBzbGs1cHpUekhF?=
+ =?utf-8?B?UW1tV01lYWRIVnpoMkdqRUdFT0xYWDhzTjAzdGg5UEJWWXp5Rk04YzlmZHBh?=
+ =?utf-8?B?V2x4d0xQN2dpZ3d5ejR4aU5xUlFpekJMUERsYmN1MEYwaFIwa2Z4S3RRYm04?=
+ =?utf-8?B?a1BsWkljYklMbmFQMHRWdU0zWnpMb2VLdmJKN0pMaENkdXFFSWdnaXViVDJY?=
+ =?utf-8?B?NHFxc29pcWcyaGtESE5jWUVCWktCa1p5MTFhelg2UFBEZCtrQjE4Z1Vmb1FG?=
+ =?utf-8?B?VDZTSnIrVmtMMzBnbFRmazV2Qm1acVJqYmJsTDBBdGh4dXM2ckxxdFFWempp?=
+ =?utf-8?B?d3h6cWR3Vmk0azBJZyt0aXRrRVhKN1g4S3gveVA1YW14b1dndDNmMG1sTlNF?=
+ =?utf-8?B?eEJNL2V2RnFjeWNGelVhV2w3L0pteTdRUTFMWm5raHZTdjVOMklHbUkxV3RM?=
+ =?utf-8?B?VjBPK3FVaGdDMVBKc0RWRURIZ1Z1NTR0ZndZNGJEZmhJdjg2VFV4cllvNStw?=
+ =?utf-8?B?S0hWZXZiNFlRZDZYc3ZoZU5tTjVxS1M5WXd4MEEyY2x3WXcrcnVhQXhZMU5k?=
+ =?utf-8?B?c0krR2c4R0dPNHNMQTdJbVlFL2IrMFFJVEwvN0xRWUQwVG52YXgrVzNUMVNP?=
+ =?utf-8?B?N04wOVN1aFlaWUZhUkJORERXVm9YaWFuNU1pSUxya0RRYzdHaDlJKy9tcVY4?=
+ =?utf-8?B?T2JieTJkTmVvWFNoMTl5ZGNvQjZ4WHRYekY3Yk43SkM2RVI4S0FIcUdEK2Fy?=
+ =?utf-8?B?SlF5VjcxbFM5dlU0ZUQzbEdPSERCRnRGeGRpOWlxckt4Zi85RXpmbTdaUzVw?=
+ =?utf-8?B?NHYwOU4yQjduR2xXMGtmUnZickJTZUVvNG5RcDNHa09kNlZzZzRoWm9DeGVO?=
+ =?utf-8?B?eWVra0tSZTU5MkFCU3NLK24wZHArNEZjZ3FpTkdyQkdERUwyRXZNYVRDTWs1?=
+ =?utf-8?B?OVFFZ3RFcnNXNERsVHJZNGpRZ0xMSmgwa2pGcXRNTU5BUnRhdW9QQzBmK1A1?=
+ =?utf-8?B?Y0w5b0dQN3pmYUJVeUsvSGZhRTIvTFdDM2tUM0pRR0dDQnYxdm5sYll4YlVp?=
+ =?utf-8?B?YXdTdVI2bzUwYWRQSTFNa2xEeDVIbWZpSHBuMjdqem5zcGN3V1RrNnpnMS84?=
+ =?utf-8?B?SS9BeWp0VU9CQWZVMDl6OEczK0lXVUdOK3lJTzRid0ZSVGVVMWp1cFhTMmdp?=
+ =?utf-8?B?ZE9iVGlxNWRqUEFKZVgvKzRKeEhwQmErUlIrdk9qMkcwYlhBTCtETmRHRDY0?=
+ =?utf-8?B?ZllBOUM4M1JMMzVhMFJDZ0FCWmIwMFJ3QlVOaU80TDI5R2VlM3p5UEMxdjA5?=
+ =?utf-8?B?enhsd1BvTWJMczRkOXJRUlJYQWx5WDhRN3p1YURKdDNoWkFYT3RMYXZMcExp?=
+ =?utf-8?B?R0VPdk9qU2hmaUVlSWhlWkZ3RE0xUUkzVUZmeHV4QUNuaWhGSTIzcFpwTUR3?=
+ =?utf-8?B?QXc9PQ==?=
+X-OriginatorOrg: cce.gob.ec
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8face4b7-b04f-47a4-2cdc-08da6a692c86
+X-MS-Exchange-CrossTenant-AuthSource: SA1PR20MB4395.namprd20.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 20 Jul 2022 16:01:57.8384
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84f0bd68-1116-4b08-bd1c-227e28c9c034
+X-MS-Exchange-CrossTenant-MailboxType: HOSTED
+X-MS-Exchange-CrossTenant-UserPrincipalName: fwaVcPr9tTTVwW8sCbeHjUdEPBRQLWW94lSNTNk8lOxIgO2JY7k8yIlXvY6zj+GtYqM03PCr1q8PKeMJ0MXa8MrnmR3z94gvKgLyXppWOZg=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CH0PR20MB4123
+X-trabajo-MailScanner-Information: Please contact the ISP for more information
+X-trabajo-MailScanner-ID: 15FD12C0D4B.AD607
+X-trabajo-MailScanner: Found to be clean
+X-trabajo-MailScanner-From: notificaciones.sg@cce.gob.ec
+
+------=_Part_3120_789884422.1658332917220
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>Notificacion</title><style>td{padding:10px 10px 10px 10px}p{font-famil=
+y:Helvetica Neue,Helvetica;color:#888;font-size:12pt;text-align:justify}</s=
+tyle></head><body><table style=3D"width:80%; margin-left:auto; margin-right=
+:auto;"><tr><td><p>Estimad@:</p><p>MINISTERIO DEL TRABAJO - PLANTA CENTRAL<=
+/p><p>Dentro del caso No. 1217-22-EP que se tramita en la Corte Constitucio=
+nal del Ecuador, se le notifica con:</p></td></tr><tr><td style=3D"backgrou=
+nd-color: #face04;"><p style=3D"text-align: center;font-weight: bold; color=
+:#002e60">DOCUMENTOS</p></td></tr><tr><td><table style=3D"width:80%; margin=
+-left:auto; margin-right:auto;font-family:Helvetica Neue,Helvetica;color:#8=
+88;border-collapse: collapse;"><tr><td style=3D"width:75%; border: 1px soli=
+d #999;">AUTO DE TRIBUNAL DE SALA DE ADMISI=C3=93N</td><td style=3D"width:2=
+5%; border: 1px solid #999;"><a href=3D"http://esacc.corteconstitucional.go=
+b.ec/storage/api/v1/10_DWL_FL/e2NhcnBldGE6J3RyYW1pdGUnLCB1dWlkOic2ZDdkYWM5M=
+i1iODU5LTQyMWYtOGIzOC00NmJmNzc0Yzg0NmEucGRmJ30=3D">Ver</a></td></tr></table=
+></td></tr><tr><td><p>Atentamente,</p><p>SECRETARIA GENERAL <br>CORTE CONST=
+ITUCIONAL DEL ECUADOR</p></td></tr><tr><td style=3D"background-color:#002e6=
+0"><p style=3D"font-size:8pt; color: #ffffff; text-align: center;"><em>Este=
+ correo ha sido generado autom=C3=A1ticamente por el sistema de la CORTE CO=
+NSTITUCIONAL DEL ECUADOR, por favor no responda.</em></p></td></tr></table>=
+</body></html>=
+
+------=_Part_3120_789884422.1658332917220--
